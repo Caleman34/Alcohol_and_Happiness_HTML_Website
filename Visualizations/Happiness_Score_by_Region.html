@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Web Visualization Challenge</title>
+
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="../Assets/css/bootstrap.min.css" media="screen" />
+
+    <!-- our own css stylesheet -->
+    <link rel="stylesheet" href="..Assets/css/styles.css" media="screen" />
+</head>
+ 
+<!-- start of body -->
+<body>
+    <!-- start of navbar -->
+    <nav class="navbar navbar-expand-lg navbar sticky-top navbar-dark bg-primary">
+     <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href=".//index.html">Home
+              <span class="visually-hidden">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../data.html">Conclusion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../data.html">Data Set</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../comparison.html">Analysis Comparisons</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Analysis Figures</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="../Visualizations/Happiness_Score_and_GDP.html">Happiness Score & GDP</a>
+              <a class="dropdown-item" href="../Visualizations/Region_GDP_Per_Capita.html">Region GDP Per Capita</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="../Visualizations/top_Bottom_GDP.html">Top/Bottom 10 Countries' DGP</a>
+              <a class="dropdown-item" href="../Visualizations/top_Bottom_Happiness_Score.html">Top/Bottom 10 Countries' Happiness Score</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="../Visualizations/happiness_factors.html">Happines Score Factors</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="../Visualizations/Happiness_Score_by_Region.html">Happiness Score by region</a>
+              <a class="dropdown-item" href="../Visualizations/Region_Alcohol_Consumption.html">Alcohol Consumption by Region</a>              
+            </div>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+       </div>
+      </div>
+    </nav>
+  <!-- End of navbar -->
+
+  <!-- Start of body of home page -->
+  
+    <!-- begning of using bootstrap grid system -->
+  <div class="container">
+    <div class="col-md-12 text-center">
+        <br>
+        <h1>Happiness Score by Region</h1>
+        <hr>
+    </div>
+    <!-- first row with image and 2 analysis figures -->
+    <div class="row text-center">
+        <!-- beginning of left column row 1 -->
+      <div class="col-md-8">
+            <img src="../Assets/images/Happiness_Score_by_Region.png" style="width: 750px" alt="all_happy_gdp_scatter.html">
+      </div>
+        <!-- end of left column of row 1 -->
+        <!-- begining right side row 1 -->
+      <div class="col-md-4">
+        <!-- new row within row 1 for button -->
+        <div class="row">
+          <div class="col-md-12">
+            <button type="button" class="btn btn-primary btn-lg" href="../summary.html">Analysis Figures</button>
+          </div>          
+        </div>
+        <!-- second new row in row 1 for 2 figures -->
+        <div class="row">
+          <div class="col-md-6">
+            <br>
+            <a href="../Visualizations/all_happy_gdp_scatter.html"><img src="../Assets/images/all_happy_gdp_scatter.png" alt="Happiness & GDP scatterplot" style="width:190px" align="right"></a>
+          </div>
+          <div class="col-md-6">
+            <br>
+            <a href="../Visualizations/Happiness_Score_by_Region.html"><img src="../Assets/images/Happiness_Score_by_Region.png" alt="Happiness Score by Region" style="width:190px" align="left"></a>
+          </div>
+        </div>
+        <!-- third new row in row 1 for 2 more figures -->
+        <div class="row">
+          <div class="col-md-6">
+            <br>
+            <br>
+            <a href="../Visualizations/GDP_Per_Capita_by_Region.html"><img src="../Assets/images/GDP_Per_Capita_by_Region.png" alt="GDP_Per_Capita_by_Region" style="width:190px" align="right"></a>
+          </div>
+          <div class="col-md-6">
+            <br>
+            <br>
+            <a href="../Visualizations/Top_Bottom_10_GDP_Countries.html"><img src="../Assets/images/Top_Bottom_10_GDP_Countries.png" alt="Top_Bottom_10_GDP_Countries" style="width:190px" align="left"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of first row with image and 4 analysis figures -->
+
+    <!-- row 2 with paragraph and 4 more figures -->
+    <div class="row text-center">
+      <!-- beginning of left column row 2 -->
+      <div class="col-md-8">
+        <p>
+          <h5 align="left">
+            The region a person lives, has a significant impact on their happiness according to the data.
+            Australia and New Zealand have the highest Happiness Score while Sub-Saharan Africa has the lowest Happiness Score.
+            Of notable observation, Southeastern Asia has the widest range of Happiness Score among the regions.
+          </h5>
+        </p>
+        </p>
+       </div>
+      <!-- end of left column of row 2 -->
+      <!-- begining right side row 2 -->
+      <div class="col-md-4">
+        <!-- first new row in row 2 for 2 figures -->
+        <div class="row">
+          <div class="col-md-6">
+            <br>
+            <a href="../Visualizations/Top_Bottom_10_Happy_Countries.html"><img src="../Assets/images/Top_Bottom_10_Happy_Countries.png" alt="top_Bottom_Happiness_Score" style="width:190px" align="right"></a>
+          </div>
+          <div class="col-md-6">
+            <br>
+            <a href="../Visualizations/t_b_10_region_consumption_bar.html"><img src="../Assets/images/t_b_10_region_consumption_bar.png" alt="t_b_10_region_consumption_bar" style="width:190px" align="left"></a>
+          </div>
+        </div>
+        <!-- second new row in row 2 for 2 more figures -->
+        <div class="row">
+          <div class="col-md-6">
+            <!-- <br> -->
+            <!-- <br> -->
+            <a href="../Visualizations/happiness_factors.html"><img src="../Assets/images/Freedomof_life_choices.png" alt="Freedomof_life_choices" style="width:190px" align="right"></a>
+          </div>
+          <div class="col-md-6">
+            <!-- <br>
+            <br> -->
+            <a href="../Visualizations/happiness_factors.html"><img src="../Assets/images/percofcorruption.png" alt="percofcorruption" style="width:190px" align="left"></a>
+          </div>
+        </div>
+      </div>
+     </div>
+    <!-- end of second row with summary and 4 analysis figures -->
+
+    <!-- start of footer -->
+  <hr>
+  <div>
+    <div class="row text-center">
+      <div class="col-md-12">© Coppyright Chris Aleman 2021</div>
+    </div>
+  </div> 
+  <br> 
+<!-- end of footer -->
+
+<!-- End of container and body -->
+  </div>
+</body>
+
+<!-- final scripts for html pages -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</html>
