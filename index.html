@@ -12,17 +12,7 @@
     <link rel="stylesheet" href="Assets/css/bootstrap.min.css" media="screen" />
 
     <!-- our own css stylesheet -->
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-    
+    <link rel="stylesheet" href="Assets/css/styles.css" media="screen" />
 </head>
  
 <!-- start of body -->
@@ -30,7 +20,7 @@
     <!-- start of navbar -->
     <nav class="navbar navbar-expand-lg navbar sticky-top navbar-dark bg-primary">
      <div class="container-fluid">
-      <button class="navbar-toggler" role="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
   
@@ -50,9 +40,10 @@
           <li class="nav-item">
             <a class="nav-link" href="comparison.html">Analysis Comparisons</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">Analysis Figures</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li class="nav-item dropdown" >
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Analysis Figures</a>
+            <span class="caret"></span></a>
+             <div class="dropdown-menu">
               <a class="dropdown-item" href="Visualizations/Happiness_Score_and_GDP.html">Happiness Score & GDP</a>
               <a class="dropdown-item" href="Visualizations/Region_GDP_Per_Capita.html">Region GDP Per Capita</a>
               <div class="dropdown-divider"></div>
@@ -97,7 +88,7 @@
       </div>
         <!-- end of left column of row 1 -->
         <!-- begining right side row 1 -->
-      <div class="col-md-4"style="background-color:primary;>
+      <div class="col-md-4"divbdy>
         <!-- new row within row 1 for button -->
         <div class="row">
           <div class="col-md-12">
@@ -216,4 +207,9 @@
 <!-- End of container and body -->
   </div>
 </body>
+
+<!-- final scripts for html pages -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </html>
