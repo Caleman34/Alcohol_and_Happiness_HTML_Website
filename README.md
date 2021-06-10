@@ -1,6 +1,6 @@
 # Web Visualization Dashboard
 
-## Click <a href="https://caleman34.github.io/" target="_blank">here</a> for live webpage on Github.com
+## Click <a href="https://caleman34.github.io/" rel="noopener" target="_blank">here</a> for live webpage on Github.com
 
 ## Background
 
