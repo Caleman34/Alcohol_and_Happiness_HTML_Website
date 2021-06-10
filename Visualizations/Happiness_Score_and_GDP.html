@@ -8,6 +8,9 @@
 
     <title>Web Visualization Challenge</title>
 
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
     <!-- Bootstrap Stylesheet -->
     <link rel="stylesheet" href="../Assets/css/bootstrap.min.css" media="screen" />
 
@@ -41,7 +44,7 @@
             <a class="nav-link" href="../comparison.html">Analysis Comparisons</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Analysis Figures</a>
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="menu" aria-haspopup="true" aria-expanded="false">Analysis Figures</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="../Visualizations/Happiness_Score_and_GDP.html">Happiness Score & GDP</a>
               <a class="dropdown-item" href="../Visualizations/Region_GDP_Per_Capita.html">Region GDP Per Capita</a>
@@ -83,33 +86,33 @@
       <div class="col-md-4">
         <!-- new row within row 1 for button -->
         <div class="row">
-          <div class="col-md-12">
-            <button type="button" class="btn btn-primary btn-lg" href="../summary.html">Analysis Figures</button>
+          <div class="col-md-12" divbdy>
+            <a class="btn btn-primary btn-lg" href="../comparison.html" role="button">Analysis Figures</a>
           </div>          
         </div>
         <!-- second new row in row 1 for 2 figures -->
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6" divbdy>
             <br>
-            <a href="../Visualizations/Happiness_Score_and_GDP.html"><img src="../Assets/images/all_happy_gdp_scatter.png" alt="Happiness & GDP scatterplot" class="img-thumbnail" style="width:190px" align="right"></a>
+            <a href="../Visualizations/Happiness_Score_and_GDP.html"><img src="../Assets/images/all_happy_gdp_scatter.png" alt="Happiness & GDP scatterplot" class="img-thumbnail" style="width:190px" align="center"></a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6"divbdy>
             <br>
-            <a href="../Visualizations/Happiness_Score_by_Region.html"><img src="../Assets/images/Happiness_Score_by_Region.png" alt="Happiness Score by Region" class="img-thumbnail" style="width:190px" align="left"></a>
+            <a href="../Visualizations/Happiness_Score_by_Region.html"><img src="../Assets/images/Happiness_Score_by_Region.png" alt="Happiness Score by Region" class="img-thumbnail" style="width:190px" align="center"></a>
           </div>
         </div>
         <!-- third new row in row 1 for 2 more figures -->
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6"divbdy>
             <!-- <br> -->
             <br>
             <br>
-            <a href="../Visualizations/Region_GDP_Per_Capita.html"><img src="../Assets/images/GDP_Per_Capita_by_Region.png" alt="GDP_Per_Capita_by_Region" class="img-thumbnail" style="width:190px" align="right"></a>
+            <a href="../Visualizations/Region_GDP_Per_Capita.html"><img src="../Assets/images/GDP_Per_Capita_by_Region.png" alt="GDP_Per_Capita_by_Region" class="img-thumbnail" style="width:190px" align="center"></a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6"divbdy>
             <br>
             <br>
-            <a href="../Visualizations/top_Bottom_GDP.html"><img src="../Assets/images/Top_Bottom_10_GDP_Countries.png" alt="Top_Bottom_10_GDP_Countries" class="img-thumbnail" style="width:190px" align="left"></a>
+            <a href="../Visualizations/top_Bottom_GDP.html"><img src="../Assets/images/Top_Bottom_10_GDP_Countries.png" alt="Top_Bottom_10_GDP_Countries" class="img-thumbnail" style="width:190px" align="center"></a>
           </div>
         </div>
       </div>
@@ -136,28 +139,28 @@
       <div class="col-md-4">
         <!-- first new row in row 2 for 2 figures -->
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6"divbdy>
             <br>
             <br>
-            <a href="../Visualizations/top_Bottom_Happiness_Score.html"><img src="../Assets/images/Top_Bottom_10_Happy_Countries.png" alt="top_Bottom_Happiness_Score" class="img-thumbnail" style="width:190px" align="right"></a>
+            <a href="../Visualizations/top_Bottom_Happiness_Score.html"><img src="../Assets/images/Top_Bottom_10_Happy_Countries.png" alt="top_Bottom_Happiness_Score" class="img-thumbnail" style="width:190px" align="center"></a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6"divbdy>
             <br>
             <br>
-            <a href="../Visualizations/Region_Alcohol_Consumption.html"><img src="../Assets/images/t_b_10_region_consumption_bar.png" alt="t_b_10_region_consumption_bar" class="img-thumbnail" style="width:190px" align="left"></a>
+            <a href="../Visualizations/Region_Alcohol_Consumption.html"><img src="../Assets/images/t_b_10_region_consumption_bar.png" alt="t_b_10_region_consumption_bar" class="img-thumbnail" style="width:190px" align="center"></a>
           </div>
         </div>
         <!-- second new row in row 2 for 2 more figures -->
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6"divbdy>
             <br>
             <br>
-            <a href="../Visualizations/Life_Choices.html"><img src="../Assets/images/Freedomof_life_choices.png" alt="Freedomof_life_choices" class="img-thumbnail" style="width:190px" align="right"></a>
+            <a href="../Visualizations/Life_Choices.html"><img src="../Assets/images/Freedomof_life_choices.png" alt="Freedomof_life_choices" class="img-thumbnail" style="width:190px" align="center"></a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6"divbdy>
             <br>
             <br>
-            <a href="../Visualizations/percofcorruption.html"><img src="../Assets/images/percofcorruption.png" alt="percofcorruption" class="img-thumbnail" style="width:190px" align="left"></a>
+            <a href="../Visualizations/percofcorruption.html"><img src="../Assets/images/percofcorruption.png" alt="percofcorruption" class="img-thumbnail" style="width:190px" align="center"></a>
           </div>
         </div>
       </div>
@@ -168,7 +171,7 @@
   <hr>
   <div>
     <div class="row text-center">
-      <div class="col-md-12">© Coppyright Chris Aleman 2021</div>
+      <div class="col-md-12">© Copyright Chris Aleman 2021</div>
     </div>
   </div> 
   <br> 
@@ -176,10 +179,10 @@
 
 <!-- End of container and body -->
   </div>
-</body>
+
 
 <!-- final scripts for html pages -->
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <!-- Bootstrap CDN -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="Scripts/jquery-2.1.1.min.js"></script>
+ 
+</body>
 </html>
