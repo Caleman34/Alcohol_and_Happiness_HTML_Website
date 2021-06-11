@@ -52,5 +52,9 @@ The website must, at the top of every page, have a navigation menu that:
 
   ![Images/conclusion.png](Images/conclusion.PNG)
 
+  ![Images/2.png](Images/3.PNG)
+
+  ![Images/2.png](Images/4.PNG)
+
 
 Finally, the website must be deployed to GitHub pages.
