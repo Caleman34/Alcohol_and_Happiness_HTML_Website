@@ -2,10 +2,6 @@
 
 ## Click <a href="https://caleman34.github.io/" rel="noopener" target="_blank">here</a> for live webpage on Github.com
 
-## Background
-
-Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
-
 ![Assets/images/drinkingtogether.png](Assets/images/drinkingtogether.png)
 
 For this homework we'll be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be using project 1.
