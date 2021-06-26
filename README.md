@@ -1,3 +1,15 @@
+## Repository Info:
+
+Repository Size: 15.5 MB
+
+Code can be run using Visual Studio Code using a live server to view the HTML website
+
+This website was created using a previous project, Alcohol and Happiness, to demonstrate the use of Bootstrap 5 and HTML tags to create multiple fully functioning and interactive web pages.
+
+![5](Images/5.png)
+
+![6](Images/6.png)
+
 # Web Visualization Dashboard
 
 ## Click <a href="https://caleman34.github.io/" rel="noopener" target="_blank">here</a> for live webpage on Github.com
