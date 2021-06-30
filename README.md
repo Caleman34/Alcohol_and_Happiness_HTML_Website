@@ -12,7 +12,7 @@ This website was created using a previous project, Alcohol and Happiness, to dem
 
 # Web Visualization Dashboard
 
-## Click <a href="https://caleman34.github.io/" rel="noopener" target="_blank">here</a> for live webpage on Github.com
+## Click <a href="https://caleman34.github.io/Alcohol_and_Happiness_Website/" rel="noopener" target="_blank">here</a> for live webpage on Github.com
 
 ![Assets/images/drinkingtogether.png](Assets/images/drinkingtogether.png)
 
